@@ -97,17 +97,6 @@ was the most drastic improvement seen with the use of Optuna. All of the
 models were optimized and trained in a timely manner, which was expected
 given the small number of rows in the dataset.
 
-## Conclusion
-When using Optuna and a Tree-Structured Parzen Estimator algorithm
-to tune the hyperparameters, there was no significant evidence that XGBoost
-provided meaningful advantages over traditional algorithms on small to medium
-sparse datasets. Support Vector Machine took a dramatic amount of time to tune
-its hyperparameters and Elastic Net regression benefited greatly from optimizing
-the L1 and L2 tradeoff. Optuna and TPE proved effective in improving model
-performance, boosting all but one model in testing accuracy. Optuna also proved
-highly efficient scanning through huge ranges of hyperparameters that would
-have taken dramatically longer with traditional grid searches.
-
 ![Figure 3](https://github.com/chrisewanik/school_projects/assets/113730877/d4c0c5ee-f319-40df-8fb8-a3f52eab2f9b)
 ![Figure 4](https://github.com/chrisewanik/school_projects/assets/113730877/62ed6d33-090c-47db-8061-9517ff4bd1a5)
 
