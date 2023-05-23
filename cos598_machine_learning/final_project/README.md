@@ -113,7 +113,15 @@ have taken dramatically longer with traditional grid searches.
 
 ## Conclusion
 
-
+When using Optuna and a Tree-Structured Parzen Estimator algorithm
+to tune the hyperparameters, there was no significant evidence that XGBoost
+provided meaningful advantages over traditional algorithms on small to medium
+sparse datasets. Support Vector Machine took a dramatic amount of time to tune
+its hyperparameters and Elastic Net regression benefited greatly from optimizing
+the L1 and L2 tradeoff. Optuna and TPE proved effective in improving model
+performance, boosting all but one model in testing accuracy. Optuna also proved
+highly efficient scanning through huge ranges of hyperparameters that would
+have taken dramatically longer with traditional grid searches.
 
 
 
