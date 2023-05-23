@@ -4,9 +4,12 @@
 - Saher Fatima <saher.fatima@maine.edu>
 
 ## tl;dr
-1. Optuna + ElasticNet is highly effective
-2. XGBoost performed similar to others with small datasets
-3. Optimizing SVM can be slow
+1. Comparing XGBoost performance with Optuna for perfect hyperparams
+2. Classification: XGBoost vs. Naive Bayes vs SVM (Adult Data Set UC Irvine)
+3. Regression: XGBoost vs KRR vs ElasticNet (Auto MPG Data Set UC Irvine)
+4. Optuna + ElasticNet is CLEAN
+5. XGBoost performed similar to others with small datasets
+6. Optimizing SVM can be slow
 
 ## Abstract
 
