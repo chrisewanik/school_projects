@@ -1,7 +1,8 @@
 ## Authors
-- Christopher Ewanik mailto:christopher.ewanik@maine.edu
-- Dorothy Harris mailto:dorothy.harris@maine.edu
-- Saher Fatima mailto:saher.fatima@maine.edu
+- Christopher Ewanik <christopher.ewanik@maine.edu>
+- Dorothy Harris <dorothy.harris@maine.edu>
+- Saher Fatima <saher.fatima@maine.edu>
+
 ## tl;dr
 1. Optuna + ElasticNet is highly effective
 2. XGBoost performed similar to others with small datasets
